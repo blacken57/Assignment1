@@ -1,0 +1,132 @@
+body
+{
+	margin: 0;
+}
+
+
+
+nav
+{
+	width: 100%;
+	height: 45px;
+	color: white;
+	padding: 10px 75px 0px 100px;
+	box-sizing: border-box;
+	position: fixed;
+	background-color: #2158af;
+	overflow: hidden;
+}
+
+
+.content
+{
+	width: 100%;
+	height: 100%;
+}
+
+.fa-facebook
+{
+	width: 20px;
+	height: 20px;
+	font-size: 25px;
+	color: #2158af;
+	background-color: white;
+	padding: 2px 0px 0px 8px;
+	border-radius: 1.5px;
+	box-sizing: border-box;
+	margin-right: 2px;
+}
+
+.inputing
+{
+	display: inline-block;
+	position: relative;
+	top: -6.5px;
+	margin-left: 0;
+	margin-right: 250px;
+}
+
+
+input
+{
+	width: 400px;
+	height: 20px;
+	border-radius: 3.5px;
+	padding: 2px 5px;
+	background: white;
+	margin-right: 0px;
+}
+
+.fa-search
+{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 40px;
+	height: 20px;
+	font-size: 15px;
+	border-radius: 0px 3.5px 3.5px 0px;
+	padding-top: 6.5px;
+	text-align: center;
+	color: #afafaf;
+	background: rgb(210, 213, 219, 0.2);
+}
+
+
+
+img
+{
+	height: 25px;
+	width: 25px;
+}
+
+.profile
+{
+	display: inline-block;
+	background: white
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.right
+{
+	position: absolute;
+	top: 10px;
+}
+
+
+.right .fa
+{
+	width: 25px;
+	height: 25px;
+	font-size: 20px;
+	color: #143366;
+	margin-left: 10px;
+}
+.fa.fa-users
+{
+	margin-left: 15px; 
+}
+
+.fa.fa-globe
+{
+	border-right: 0.5px solid #143366;
+}
+
+
+.fa.fa-question-circle
+{
+	margin-left: 15px;
+}
+
+.text
+{
+	font-family: "Verdana";
+	font-size: 12px;
+	border-right: 1px solid #143366;
+	margin-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+}
