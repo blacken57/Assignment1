@@ -1,0 +1,83 @@
+body
+{
+	height: 100%;
+	font-family: "Comic Sans MS";
+	background-image: url("http://okp-cdn.okayplayer.com/wp-content/uploads/2017/12/DQoFWmHVQAEQhSc-e1512943540979.jpg");
+	background-size: cover;
+	background-position: center;
+	/*background-repeat: no-repeat*/
+}
+
+.container
+{
+	margin: 35px 30px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	background: rgba(225, 232, 222, 0.9)
+}
+
+.row
+{
+	height: 110px;
+	flex-basis: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+.item
+{	flex-basis: 30%;
+	font-size: 150%;
+	text-align: center;
+	padding-top: 35px;
+}
+
+
+{
+	.item
+	{
+		font-size: 120%;
+	}
+}
+
+.item:hover
+{
+	background: white;
+}
+
+.design
+{
+	flex: 1.5;
+}
+
+.desin
+{
+	flex: 1;
+}
+
+.fougat
+{
+	flex: 1;
+	background: rgb(10, 200, 226, 0.5);
+	color: rgb(14, 69, 117);
+}
+
+
+strong
+{
+	color: purple;
+}
+
+
+
+.fanny
+{	flex: 1;
+	background: rgb(112, 216, 62, 0.5);
+}
+
+span
+{
+	text-decoration: line-through;
+	margin-right: 5px;
+}
+
